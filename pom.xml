@@ -10,8 +10,9 @@
   <packaging>jar</packaging>
 
   <name>Maven_Messages2</name>
+  <description>This is an artefact for Maven Central</description>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>https://github.com/EVonarx/Maven_Messages2</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -20,13 +21,28 @@
   </properties>
 
 <licenses>
-    <license>
-      <name>Apache License, Version 2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
+  <license>
+    <name>MIT License</name>
+    <url>http://www.opensource.org/licenses/mit-license.php</url>
+  </license>
+</licenses>
   
+  
+  <developers>
+    <developer>
+      <name>Eric Vonarx</name>
+      <email>eric.vonarx@free.fr</email>
+      <organization>com.github.evonarx</organization>
+      <organizationUrl>https://github.com/EVonarx</organizationUrl>
+    </developer>
+  </developers>
+  
+  <scm>
+  <connection>scm:git:git://github.com/EVonarx/Maven_Messages2.git</connection>
+  <developerConnection>scm:git:ssh://github.com/EVonarx/Maven_Messages2.git</developerConnection>
+  <url>https://github.com/EVonarx/Maven_Messages2</url>
+</scm>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
